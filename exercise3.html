@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+	<script>
+	$(function(){
+		$("button:first").click(function(){
+			$("#picture").css("height","1000px").css("width","100px").slideUp(2000).slideDown(2000).css("border-radius","50%").css("height","100px").hide(3000).show(1000).toggle().fadeIn("slow").animate({left:'250px'});
+		});
+	});
+	
+	</script>
+	</head>
+	<body>
+		<h2>Web Programming</h2>
+		<image id="picture" src='images.jpg'><br>
+		
+		<button>Show Picture</button>
+	</body>
+</html>
